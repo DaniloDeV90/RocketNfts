@@ -118,10 +118,17 @@ align-items: center;
     flex-wrap: wrap;
     gap: 10px;
 
+justify-content: center;
 }
 .card img {
     border: 1px solid #fff;
     border-radius: 2px;
+}
+@media screen  and (max-width: 1800px) {
+    #Container1 {
+        height: 100%;
+    }
+
 }
 @media screen  and (max-width: 980px) {
 
@@ -154,6 +161,11 @@ flex-direction: column;
 .ArteDigital {
     flex-wrap: wrap;
 }
+.ArteDigital {
+    width: 10px;
+       flex-wrap: wrap;
+    gap: 0;
+   }
 }
 
 
@@ -176,7 +188,16 @@ flex-direction: column;
 
    }
    .mercadoDigital p {
-    width: 150px;
+    width: 100%;
 
+   }
+ 
+   .ArteDigital {
+    display: flex;
+  margin-left: 10%;
+   }
+ 
+   .card img {
+    width: 100%;
    }
    }
