@@ -1,0 +1,173 @@
+:root {
+    
+    --color-logo: #ff5b50;
+}
+
+#Container1 {
+    background-image: url("../../assets/background.png");
+    background-attachment: fixed;
+    font-weight: bolder;
+    padding: 10px 15%;
+}
+nav {
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+}
+#nftsNav {
+    color: var(--color-logo) ;
+font-weight: bolder;
+}
+#DivNavbar {
+    display: flex;
+    gap: 30px;
+}
+#btnNavbar {
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    font-weight: bolder;
+    color: black;
+}
+
+
+.mainContainer1 {
+    margin-top: 35px;
+    display: grid;
+grid-template-columns: 350px ;
+grid-template-areas: 
+"mercadoDigital ArteDigital ArteDigital"
+"imagensAstronautas imagensAstronautas imagensAstronautas";
+
+
+}
+
+.mercadoDigital {
+
+display: flex;
+padding: 15px;
+flex-direction: column;
+gap: 35px;
+
+    grid-area: mercadoDigital;
+
+    
+    
+}
+.mercadoDigital p {
+    color: white;
+width: 350px;
+font-weight: lighter;
+    font-size: 15px;
+    
+}
+#artistasSel {
+    display: flex;
+    gap: 5px;
+}
+#titulos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+margin-top: 20px;
+
+}
+
+
+
+.ArteDigital {
+    
+    grid-area: ArteDigital;
+    
+display: flex;
+
+gap: 16vh;
+align-items: center;
+}
+#h1Arte {
+
+    display: flex;
+    
+    flex-direction: column;
+    gap: 18px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+#svgg {
+    margin-bottom: 18px;
+ width: 160px;
+
+}
+.imagensAstronautas {
+    grid-area: imagensAstronautas;
+    background-color: blueviolet;
+
+
+}
+
+
+@media screen  and (max-width: 980px) {
+
+    .mainContainer1 {
+  display: flex;
+flex-direction: column;
+    
+    }
+
+    #h1Arte {
+        font-size: 20px;
+     }
+}
+    
+
+@media screen  and (max-width: 675px) {
+
+
+
+ #h1Arte {
+    font-size: 20px;
+ }
+
+
+ #Container1 {
+    
+    padding: 10px;
+}
+
+.ArteDigital {
+    flex-wrap: wrap;
+}
+}
+
+
+@media screen  and (max-width: 498px) {
+
+
+    #Container1 {
+        height: 100%;
+    }
+ 
+   .ArteDigital {
+    width: 10px;
+       flex-wrap: wrap;
+    gap: 0;
+   }
+
+   .mercadoDigital {
+    width: 100%;
+
+
+   }
+   .mercadoDigital p {
+    width: 150px;
+
+   }
+   }
