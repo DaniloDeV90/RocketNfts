@@ -108,12 +108,21 @@ align-items: center;
 }
 .imagensAstronautas {
     grid-area: imagensAstronautas;
-    background-color: blueviolet;
+  
 
 
 }
+.card {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 
-
+}
+.card img {
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
 @media screen  and (max-width: 980px) {
 
     .mainContainer1 {
