@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Container1.css"
-import logo from "../../assets/logo_MetaMask.svg"
+
 import grupo from "../../assets/group-avarts.png"
-import SvgRaposa from './svgRaposa'
-import Logo from './Logo'
+import SvgRaposa from './SvgRaposa.jsx'
+import Logo from './Logo.jsx'
 
 
 const Container1 = () => {
