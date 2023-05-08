@@ -1,0 +1,170 @@
+#Container2 {
+    background-color: #1f1f1f;
+height: 50vh;
+    display: grid;
+    grid-template-columns: 360px 1fr 1fr;
+  grid-template-rows:1fr 1fr 1px;
+    grid-template-areas: 
+    "Numeros Titulos Titulos"
+    "Numeros Imagens Imagens";
+}
+.Numeros {
+    grid-area: Numeros;
+
+    border-bottom: #383838 2px solid;
+}
+.Numeros ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    list-style: none;
+    
+    gap: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#pNumeros {
+    font-size: 10px;
+    color: #6e6e6e;
+}
+.Titulos {
+    grid-area: Titulos;
+  color: rgb(255, 255, 255);
+
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    border-left: #383838 2px solid;
+}
+#color {
+color: red;
+
+}
+#TituloL {
+    margin-top: 100px;
+}
+.Imagens {
+    grid-area: Imagens;
+    background-image: url("../../assets/banner2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Texto {
+    display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+#span {
+    text-align: center;
+}
+
+@media screen and (max-width:1284px ) {
+
+    #Container2 {
+   
+    height: 60vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows:300px;
+        grid-template-areas: 
+        "Numeros Titulos Titulos"
+        "Numeros Imagens Imagens";
+    }
+}
+
+
+@media screen  and  (max-width: 812px){
+    #Container2 {
+
+    height: 65vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows:350px;
+        grid-template-areas: 
+        "Numeros Titulos Titulos"
+        "Numeros Imagens Imagens";
+    }
+}
+
+@media screen  and  (max-width: 678px){
+    #Container2 {
+
+    height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows:500px;
+        grid-template-areas: 
+        "Numeros Titulos Titulos"
+        "Numeros Imagens Imagens";
+    }
+}
+
+@media screen and (max-width: 628px) {
+    #Container2 {
+     background-color: #252525;;
+    height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows:130px 360px 200px;
+        grid-template-areas: 
+        "Numeros Numeros Numeros"
+        "Titulos Titulos Titulos"
+        "Imagens Imagens Imagens";
+    }
+    .Titulos {
+        
+        flex-direction: column;
+    }
+.Numeros ul {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    border-bottom: 1px solid rgb(61, 60, 60);
+}
+
+.Imagens {
+ border-top: 2px solid rgb(61, 60, 60);
+}
+
+}
+@media screen and (max-width: 628px) {
+    #Container2 {
+    
+      grid-template-rows:310px 500px 200px;
+    
+    }
+  
+
+}
+
+@media screen and (max-width: 512px) {
+    #Container2 {
+    
+      grid-template-rows:310px 500px 200px;
+    
+    }
+  
+
+}
+
+@media screen and (max-width: 344px) {
+    #Container2 {
+    
+      grid-template-rows:310px 600px 200px;
+    
+    }
+  
+
+}
+
