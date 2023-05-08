@@ -1,0 +1,78 @@
+#Container4 {
+    background-color: #0e0e0e;
+
+}
+#Container4  h1{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+#Container4  {
+    color: #ff5b50;
+}
+
+#Umdos {
+    color: #ff5b50;
+}
+
+
+.MelhoresArtistas {
+    display: flex;
+    justify-content: center;
+ 
+    flex-wrap: wrap;
+ align-items: center;
+ gap: 100px;
+
+ margin-top: 100px;
+}
+
+.MelhoresArtistas  p{
+    color: white;
+
+}
+#Vermais {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.cardA {
+    width: 350px;
+    height: 150px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+    background-color:   #252525;
+    border-radius: 2px;
+    
+}
+.princi {
+    background-color:   #ff5b50;
+}
+#princiSpan {
+    color: white;
+}
+@media screen  and (max-width:1300px){
+    #Container4 {
+        height: 100%;
+    }
+ 
+    
+    
+}
+
+@media screen  and (max-width:400px){
+    #Container4 {
+        height: 100%;
+    }
+    .cardA {
+        width: 300px;
+        height: 100px;
+     
+        
+    }
+    
+    
+}
