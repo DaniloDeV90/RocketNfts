@@ -1,3 +1,85 @@
 #Container3 {
-    background-color:   #fafafa;
+    background-color:   #0e0e0e;
+}
+.Populares {
+    padding: 20px 300px;
+}
+.Conteudoo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 300px;
+
+}
+
+.astronautaa {
+    display: flex;
+    gap: 190px;
+}
+
+.nome {
+    display: flex;
+    gap: 70px;
+}
+.TituloCard h2 {
+    color: white;
+}
+.nome p {
+    color: rgb(97, 97, 97);
+}
+#Ações {
+color:    #ff5b50;
+}
+.cardd {
+    margin-top: 30px;
+    
+}
+.Populares {
+color: white;
+}
+
+.Populares  span{
+    color:    #ff5b50;
+    }
+@media screen and (max-width: 1347px) {
+    .Conteudoo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #Container3 {
+       height: 100%;
+    }
+    .Populares {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 598px) {
+    .Conteudoo {
+     padding: 0px 0px;
+    width: 100%;
+    }
+    #Container3 {
+       height: 100%;
+    }
+    .Populares {
+   padding: 0;
+    }
+.fotoAstro img {
+    width: 100%;
+
+}
+
+.astronautaa {
+    display: flex;
+    gap:100%;
+}
 }
